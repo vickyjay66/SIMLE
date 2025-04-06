@@ -28,15 +28,20 @@
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
 
 .tool-item img {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   margin-bottom: 15px;
 }
 
 .tool-item p {
   font-size: 1rem;
   color: #333;
+}
+
+.tool-item:hover {
+  transform: scale(1.1);
 }
