@@ -1,43 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="JSK DevOps - DevOps services, automation, and cloud solutions">
-  <title>JSK DevOps</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <div class="container">
-      <h1>JSK DevOps</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#tools">Tools</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+<section id="tools">
+  <div class="container">
+    <h2>DevOps Tools We Use</h2>
+    <p>At JSK DevOps, we work with a variety of tools to help streamline and automate the development and deployment process. Here's a list of tools we use:</p>
+    <div class="tools-container">
+      <div class="tool-item">
+        <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git" width="60" height="60">
+        <p><strong>Git</strong> - Version control system to manage code changes.</p>
+      </div>
+      <div class="tool-item">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub" width="60" height="60">
+        <p><strong>GitHub</strong> - Code hosting platform for version control and collaboration.</p>
+      </div>
+      <div class="tool-item">
+        <img src="https://maven.apache.org/images/maven-logo-v2.png" alt="Maven" width="60" height="60">
+        <p><strong>Maven</strong> - Build automation tool primarily used for Java projects.</p>
+      </div>
+      <div class="tool-item">
+        <img src="https://tomcat.apache.org/images/tomcat_logo.png" alt="Tomcat" width="60" height="60">
+        <p><strong>Tomcat</strong> - Open-source web server and servlet container.</p>
+      </div>
+      <div class="tool-item">
+        <img src="https://www.sonarqube.org/images/logo.png" alt="SonarQube" width="60" height="60">
+        <p><strong>SonarQube</strong> - Continuous inspection of code quality to detect bugs and vulnerabilities.</p>
+      </div>
+      <div class="tool-item">
+        <img src="https://www.sonatype.com/sites/default/files/styles/large/public/2019-11/NexusIQ-Logo_0.png?itok=XzjPEb70" alt="Nexus" width="60" height="60">
+        <p><strong>Nexus</strong> - Repository manager for binary artifacts and dependencies.</p>
+      </div>
+      <div class="tool-item">
+        <img src="https://www.jenkins.io/images/logos/jenkins/jenkins.svg" alt="Jenkins" width="60" height="60">
+        <p><strong>Jenkins</strong> - Automation server used for continuous integration and delivery.</p>
+      </div>
+      <div class="tool-item">
+        <img src="https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png" alt="Docker" width="60" height="60">
+        <p><strong>Docker</strong> - Platform for building, shipping, and running applications in containers.</p>
+      </div>
+      <div class="tool-item">
+        <img src="https://kubernetes.io/images/kubernetes-horizontal-color.png" alt="Kubernetes" width="60" height="60">
+        <p><strong>Kubernetes</strong> - Container orchestration platform for automating deployment, scaling, and management of containerized applications.</p>
+      </div>
+      <div class="tool-item">
+        <img src="https://d1.awsstatic.com/logos/aws-logo-lockups/rgb/aws-logo-lockup-rgb-72px.png" alt="AWS" width="60" height="60">
+        <p><strong>AWS</strong> - Amazon Web Services for cloud computing, hosting, and infrastructure management.</p>
+      </div>
+      <div class="tool-item">
+        <img src="https://www.terraform.io/assets/images/og-image-4a173f8f56cfd1082c7cfd5295e6cf0d.jpg" alt="Terraform" width="60" height="60">
+        <p><strong>Terraform</strong> - Infrastructure as Code (IaC) tool for building, changing, and versioning infrastructure safely and efficiently.</p>
+      </div>
+      <div class="tool-item">
+        <img src="https://www.ansible.com/hubfs/Ansible-logo-web-color.png" alt="Ansible" width="60" height="60">
+        <p><strong>Ansible</strong> - IT automation tool for configuration management and application deployment.</p>
+      </div>
     </div>
-  </header>
-
-  <section id="hero">
-    <div class="container">
-      <h2>Your DevOps Solution for Automation and Cloud</h2>
-      <p>Empowering businesses with seamless DevOps practices, CI/CD pipelines, and cloud solutions.</p>
-      <a href="#services" class="cta-btn">Learn More</a>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="container">
-      <h2>About JSK DevOps</h2>
-      <p>JSK DevOps was founded by <strong>J. Saikumar</strong>, a passionate DevOps engineer with extensive experience in CI/CD, cloud automation, and containerization. At JSK DevOps, we specialize in streamlining development and operations for businesses, helping them scale faster, reduce downtime, and improve overall efficiency.</p>
-    </div>
-  </section>
-
-  <section id="services">
-    <div class="container">
-      <h2>
+  </div>
+</section>
